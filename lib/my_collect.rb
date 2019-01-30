@@ -6,8 +6,7 @@ def my_collect(array)
   
   collect << yield(array[index])
   index += 1
-  
-  collect
   end
+  collect
 end
 
